@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div>
+        <header class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>  
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row ">
+                <div id="demo" class="carousel slide container col-sm-6" data-bs-ride="carousel"> 
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                  </div>
+
+                  <div class="carousel-inner py-5">
+                    <div class="carousel-item active">
+                      <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+                    </div>
+                  </div>
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  </div>
+        </div>
+                
+            <div class="container p-5 my-5 border ">
+            <h1>Erhan Namal</h1>
+            <p>Güzel bir günde çıkan engel.</p>
+            </div>
+            
+            <div class="container ">
+            <button
+                class="btn btn-primary text-center"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#Id1"
+                aria-controls="Id1"
+                
+            >
+                Enable both scrolling & backdrop
+            </button>
+            
+            <div
+                class="offcanvas offcanvas-start"
+                data-bs-scroll="true"
+                tabindex="-1"
+                id="Id1"
+                aria-labelledby="Enable both scrolling & backdrop"
+            >
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">
+                        Backdrop with scrolling
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>
+                        Try scrolling the rest of the page to see this option in
+                        action.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+             <section>
+
+              <div class="" >
+                <div class="row  justify-content-center">
+                <div class="col-3">
+                  <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;">
+                      <img src="chicago.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                              of the card's content.</p>
+                          <a href="#a" title="Başlık" data-bs-toggle="popover" data-bs-trigger="focus" 
+                          data-bs-content="Şarkı Söyleme" class="btn btn-primary btn-sm">Bilgi</a>
+                          
+                          <script>
+                          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                            return new bootstrap.Popover(popoverTriggerEl)
+                          })
+                          </script>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;">
+                      <img src="la.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                              of the card's content.</p>
+                          <a href="#a" title="Başlık" data-bs-toggle="popover" data-bs-trigger="focus" 
+                          data-bs-content="Giriş" class="btn btn-primary btn-sm">Bilgi</a>
+                          
+                          <script>
+                          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                            return new bootstrap.Popover(popoverTriggerEl)
+                          })
+                          </script>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card shadow p-3 mb-5 bg-body rounded" style="width:20rem;">
+                      <img src="ny.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                              of the card's content.</p>
+                          <a href="#a" title="Başlık" data-bs-toggle="popover" data-bs-trigger="focus" 
+                          data-bs-content="Konserde Bağrışmalar" class="btn btn-primary btn-sm">Bilgi</a>
+                          
+                          <script>
+                          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                            return new bootstrap.Popover(popoverTriggerEl)
+                          })
+                          </script>
+                          
+                      </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              
+
+             </section>
+        </main>
+    </div>
+</body>
+</html>
