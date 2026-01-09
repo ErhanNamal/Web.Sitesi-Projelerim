@@ -1,0 +1,56 @@
+[
+ {
+    "popularity": 5,
+    "name": "Karnabahar",
+    "description": "Ana-Yemek",
+    "image_url": "gr-1.jpg"
+ },
+ {
+    "popularity": 5,
+    "name": "Portakallı-Kereviz",
+    "description": "Ana-Yemek",
+    "image_url": "gr-2.jpg"
+ },
+ {
+    "popularity": 5,
+    "name": "Lahana-Sarması",
+    "description": "Ana-Yemek",
+    "image_url": "gr-3.jpg"
+ },
+  {
+    "popularity": 5,
+    "name": "Yoğurtlu Mantar Dolması",
+    "description": "Ana-Yemek",
+    "image_url": "gr-4.jpg"
+ },
+  {
+    "popularity": 5,
+    "name": "Tahin Brulee",
+    "description": "Tatlı",
+    "image_url": "gr-5.jpg"
+ },
+  {
+    "popularity": 5,
+    "name": "Limon Kaymaklı Çikolatalı Terrine",
+    "description": "Tatlı",
+    "image_url": "gr-6.jpg"
+ },
+  {
+    "popularity": 5,
+    "name": "Mahmudiye Soslu Fırında Baget Tavuk",
+    "description": "Ana-Yemek",
+    "image_url": "gr-7.jpg"
+ },
+  {
+    "popularity": 5,
+    "name": "Hurmalı Kahveli Kontrafile",
+    "description": "Ana-Yemek",
+    "image_url": "gr-8.jpg"
+ },
+ {
+      "popularity": 5,
+      "name": "Böğürtlenli Süt Reçeli Pastası",
+      "description": "Ara-Yemek",
+      "image_url": "gr-9.jpg"
+}
+]
